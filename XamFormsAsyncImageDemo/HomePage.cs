@@ -66,19 +66,6 @@ namespace XamFormsAsyncImageDemo
 
 			return images;
 		}
-
-		public async void ImageLoaded(int index, ImageSource source)
-		{
-
-			//
-			//_images [index].Source = source;
-
-			/*
-			var image = new Image ();
-			image.Source = source;
-
-			this._imageGrid.Children.Add (image, 0, index);*/
-		}
 	}
 
 	public class ImageExample
