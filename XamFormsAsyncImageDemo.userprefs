@@ -1,0 +1,5 @@
+﻿<Properties StartupItem="Droid/XamFormsAsyncImageDemo.Droid.csproj">
+  <DisabledProjects>
+    <String>UITests/XamFormsAsyncImageDemo.UITests.csproj</String>
+  </DisabledProjects>
+</Properties>
