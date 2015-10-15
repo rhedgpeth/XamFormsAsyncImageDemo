@@ -8,7 +8,8 @@ namespace XamFormsAsyncImageDemo
 	{
 		public App ()
 		{
-			MainPage = new HomePage ();
+			//MainPage = new NavigationPage(new HomePage()); //
+			MainPage = new RootPage ();
 		}
 	}
 }

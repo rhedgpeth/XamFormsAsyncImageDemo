@@ -25,6 +25,10 @@ namespace XamFormsAsyncImageDemo
 			cell.SetBinding (TextCell.TextProperty, "Description");
 			cell.SetBinding (ImageCell.ImageSourceProperty, "Url");
 
+			listView.ItemTapped += async (object sender, ItemTappedEventArgs e) => {
+				await Navigation.PushAsync(new DetailsPage(((ImageExample)e.Item).Description));
+			};
+
 			// Sets the binding template
 			listView.ItemTemplate = cell;
 
