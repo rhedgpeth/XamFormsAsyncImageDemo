@@ -10,6 +10,8 @@ namespace XamFormsAsyncImageDemo
 		{
 			//MainPage = new NavigationPage(new HomePage()); //
 			MainPage = new RootPage ();
+
+			// Test - 10/27/2015 2:52
 		}
 	}
 }
